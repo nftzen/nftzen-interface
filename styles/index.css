@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Open+Sans&display=swap");
+
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  color: white;
+  height: 100%;
+  overflow: auto;
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    #04142c,
+    #0a1637,
+    #191540,
+    #2a1146,
+    #3d0649
+  );
+}
+
+.styled-font {
+  font-family: "Jacques Francois Shadow", cursive;
+  text-shadow: cyan 0 0 8px;
+}
+.styled-font-shadow {
+  text-shadow: cyan 0 0 8px;
+}
+
+th,
+td {
+  border: 1px solid white;
+}
